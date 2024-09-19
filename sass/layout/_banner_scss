@@ -1,0 +1,73 @@
+/*
+=====================================
+PAGES TOP BANNER STYLES
+=====================================
+*/
+
+.about-top-banner {
+    background-image: url("../images/creative-design.jpg"); 
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: cover;
+    height: 350px;
+  
+}
+
+
+.web-design-top-banner {
+  background-image: url("../images/web-design-slide-1024x640.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+  opacity: 0.5;
+}
+
+.digital-marketing-banner {
+  background-image: url("../images/digital-marketing-side-1-1024x597.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+
+}
+
+.web-dev-top-banner {
+  background-image: url("../images/web-app-development.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+
+
+}
+
+
+.creative-top-banner {
+  background-image: url("../images/CREATIVE-IMAGEX.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+  font-size: small;
+
+
+}
+
+.web-design-training-banner{
+    background-image: url("../images/web-traning4.jpg"); 
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: cover;
+    height: 350px;
+    font-size: small;
+
+}
+
+#banner-text {
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+
+
+}

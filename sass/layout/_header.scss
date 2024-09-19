@@ -1,0 +1,50 @@
+/*
+==============================
+HEADER SECTION STYLES
+==============================
+*/
+
+.navbar-brand {
+  &__logo {
+    width: 13rem;
+    margin-left: 2.2rem;
+  }
+
+  &__slogan {
+    font-size: .9rem;
+    position: relative;
+    top: 4rem;
+    right: 14rem;
+    
+  }
+}
+
+
+
+#header-nav {
+  font-family: "Lora", serif;
+  color: white;
+  height: 150px;
+  background-color: rgb(6, 6, 102);
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  border-bottom: 0.2em solid yellowgreen;
+  
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

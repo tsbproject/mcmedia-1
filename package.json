@@ -1,0 +1,15 @@
+{
+  "name": "mcmedia",
+  "version": "1.0.0",
+  "description": "official website of marvel creative media",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass sass/main.scss css/styles.css",
+    "watch-css": "sass --watch sass/main.scss css/styles.css"
+  },
+  "author": "Tayo",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}

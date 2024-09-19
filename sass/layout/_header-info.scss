@@ -1,0 +1,88 @@
+/*
+  ===========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+  #workhour {
+    color: yellowgreen;
+    position: absolute;
+    right: 12em;
+    top: 0.9em;
+    }
+    
+    #clocknew {
+      font-size: 20px;
+    position: absolute;
+    right: 26.5em;
+    top: 1.4em;
+    }
+    
+    
+    
+    
+    
+    .header-info {
+      background-color: yellowgreen;
+      font-style: italic;
+      font-size: 16px
+      
+      
+    }
+    
+    
+    #clock {
+      color: rgb(6, 6, 102);
+      
+    }
+    
+    #working-hour{
+      color: white;
+      font-style: italic;
+    }
+    
+    #Telephone{
+      color:rgb(6, 6, 102);
+      
+    
+    
+    
+    }
+    
+    #number {
+      color: rgb(245, 243, 243);
+    
+    
+    }
+    
+    #envelope {
+      color:rgb(6, 6, 102);
+    
+    
+    }
+    
+    
+    #email {
+      color: rgb(247, 248, 245);
+    
+    
+    }
+    
+    #social {
+     color: rgb(6, 6, 102);
+    
+    }
+
+
+
+    #nav-list.shrink {
+      font-size: 80%; /* Adjust the font size when the navbar shrinks */
+    }
+    
+    #workhour.shrink {
+      font-size: 60%;
+    }
+    
+    
+    #clocknew.shrink {
+      font-size: 70%;
+    }

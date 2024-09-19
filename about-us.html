@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marvel Creative Media</title>
+    <link rel="icon" type="image/x-icon" href="/images/marvelcmedia-favicon.png">
+    
+    <!--------------------Bootstrap CSS---------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+      <!-----------Custom CSS--------------------------------->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--------------------------JQUARY LIBRARY----------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!------------------------------------JS LIBRARY---------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <!----------------Boostrap Icons--------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!--------Google Fonts------------------->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+    <!------------------- FONT AWESONE ICONS CDN----------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity=
+    "sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  
+   
+
+  </head>
+ 
+  
+  <body>
+    
+  <!--------------------HEADER SECTION START------------------------------>
+
+    <header class="fixed-top">
+      <div class="header-info">
+        <div class="container d-none d-md-flex justify-content-evenly py-1">
+           <i id="Telephone" class="bi bi-telephone-fill">&nbsp;&nbsp;<span id="number">(+234) 818-601-9049</span> </i> 
+           <i id="envelope" class="bi bi-envelope-at-fill">&nbsp;&nbsp;<span id="email">info@marvelcmedia.com</span> </i> 
+          <span id="social"> <a href="www.facebook.com/marvelcmedia"><i id="social" class="bi bi-facebook"></i></a>&nbsp;&nbsp;
+           <a href="www.instagram.com/marvelcmedia"><i id="social" class="bi bi-instagram"></i></a>&nbsp;&nbsp;
+           <a href="www.linkedin.com/marvelcmedia"><i id="social" class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
+           <a href="www.twitter.com/marvelcmedia"><i id="social" class="bi bi-twitter"></i></a></span>
+         
+      </div>
+    </div>
+        
+      
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid d-flex justify-content-between align-items-center py-3">
+            <div class="navbar-brand">
+              <a href="index.html" class="navbar-brand">
+                <img id="logo-img" src="images/marvelcmedia-logo.png" alt="site-logo">
+              </a>
+              <p><span id="slogan">YOUR TECH RENDEZVOUS</span></p>
+              <i id="clocknew" class="bi bi-clock  d-none d-md-flex"></i> <p id="workhour"></p> 
+            </div>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-list-nested"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              
+            <!--------------------LARGE AND MEDIUM DEVICES NAVIGATION SECTION------------------------------>
+           
+           
+            <ul id="nav-list" class="navbar-nav">
+              <li class="nav-item ">
+                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+            
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Who we are
+                </a>
+              
+               <ul id="who" class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About us</a></li>
+                <li><hr class="dropdown-divider"></li>
+                
+                </ul>
+              </li>
+         
+                  
+
+
+         
+             
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     What we do
+                    </a>
+                  <ul id="do" class="dropdown-menu">
+                    <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="web-app-development.html">Web/ App Development</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="creative-design.html">Creative Design</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a></li>
+                  </ul>
+                </li>
+
+
+
+                
+         
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Training
+                 </a>
+               <ul id="do" class="dropdown-menu">
+                 <li><a class="dropdown-item" href="web-design-dev-training.html">Web Design & Development Training</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="web-app-development-training.html">Web/ App Development Training</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="creative-design-training.html">Creative Design Traning</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="#">Digital Marketing Training</a></li>
+               </ul>
+                
+              </li>
+            
+            
+               
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+                  </a>
+                <ul id="portfolio" class="dropdown-menu">
+                  <li><a class="dropdown-item" href="creative-design.html">Creative  Design Portfolio</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="web-app-development.html">Web / App Development Portfolio</a></li>
+                </ul>
+              </li>
+            
+                  
+               
+              
+               <li class="nav-item">
+                   <a class="nav-link" href="mcmmdia/Blog">Blog</a></li>
+              <li class="nav-item">
+                  <a class="nav-link" href="request-a-quote.html">Request a Quote</a></li> 
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a></li>    
+                  
+                  
+            </ul>
+            
+          </div>
+      </nav>
+    </header>
+
+     <!--------------------HEADER SECTION END------------------------------>
+
+  
+  <!--------------------BODY SECTION START------------------------------>
+
+<section class="banner">
+  <div id="about-banner" class="about-top-banner p-4 bg-secondary text-white opacity-75">
+      <div class="container-fluid">
+           <div class="row">
+                <div class="col-sm-4">
+                  <div class="page-title wow fadeInDown" data-wow-delay="0.1s">
+                    <h1 id="about-banner-text"> ABOUT US </h1>
+
+                  </div>
+
+                </div> 
+            </div>
+      </div>
+  </div> 
+</section>
+
+<section class="vision-mission">
+<div class="container-fluid mt-1 justify-content-evenly">
+       <div class="row">
+       
+          <div id="vision-mission" class="col shadow"><h3 id="v-mission-header">VISION STATEMENT</h3> 
+            <p class="vision-mission-text">We are focus into a future where businesses and 
+            individuals easily have an access to high-quality digital solutions that help 
+            them achieve their goals. We believe utilizing the latest technologies couple 
+            best practices, we can create digital solutions that are not only visually 
+            appealing but also user-friendly, secure, and scalable.</p></div>
+         
+            <div id="vision-mission" class="col shadow"><h3  id="v-mission-header" >MISSION STATEMENT</h3>
+              <p class="vision-mission-text">our mission is to provide innovative and cost-effective digital
+               solutions that help our clients achieve their business goals. We go extra length to deliver 
+               business focused quality websites, mobile applications, and digital designs that are
+                not only visually appealing but also user-friendly and secure.</p></div>
+      
+        </div>
+  </div>
+</section>
+
+
+<section class="about-us text">
+   <div class="container-fluid mt-1 justify-content-evenly">
+       <div class="row">
+           <div id="about-section" class="col p-5 shadow"><h4 class="about-header"> ABOUT US<hr></h4>
+            <p class="about-text">Welcome to Marvel Creative Media, your trusted partner for Website and
+               Mobile App development. We are a team of experienced professionals who are passionate about
+                creating digital solutions that help businesses and individuals achieve their goals.</p>
+
+            <p class="about-text"> At Marvel Creative Media, we understand that every project is unique, 
+              and we take the time to listen to our clients' needs and objectives. Whether you need a 
+              simple website, a complex mobile app, or a customized digital solution, we can help you 
+              bring your vision to life.</p>
+            
+            <p class="about-text"> We have team of designers, developers, and project managers work 
+              closely with you to ensure that your project is delivered on time, within budget, and
+               to your complete satisfaction. We use the latest technologies and best practices to 
+               create solutions that are scalable, secure, and user-friendly.</p>
+            
+            <p class="about-text">We are dedicated to providing cut-edged and distinct customer 
+              service and support throughout the development process and after. We are always available
+               to respond to your enquries, attend to your concerns, and offers guidance and advice to 
+               help you achieve your digital goals.</p>
+            
+            <p class="about-text">Thank you for considering Marvel Creative Media for your Website and
+               Mobile App development needs. We look forward to working with you and helping you succeed 
+               in the digital world.
+            </p></div>
+           
+            <div id="progress-bar" class="col  p-5 shadow"><h4 class="progress-bar-header"> SKILLS METER<hr></h4>
+              
+              <div class="progress mt-5">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">HTML5 90%</div>
+              </div>
+             
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-success progress-bar-striped  progress-bar-animated" style="width:75%">CSS 85%</div>
+              </div>
+          
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-info progress-bar-striped  progress-bar-animated" style="width:65%"> JAVASCRIPT 70%</div>
+              </div>
+            
+              <div class="progress   mt-5">
+                <div class="progress-bar bg-warning progress-bar-striped  progress-bar-animated" style="width:70%">PHP 65%</div>
+              </div>
+
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-danger progress-bar-striped  progress-bar-animated" style="width:90%"> WORDPRESS 90%</div>
+              </div>
+
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-secondary progress-bar-striped  progress-bar-animated" style="width:70%"> ADOBE ILLUSTRATOR 70%</div>
+              </div>
+
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-dark progress-bar-striped  progress-bar-animated" style="width:85%"> ADOBE PHOTOSHOP 85%</div>
+              </div>
+
+              <div class="progress  mt-5">
+                <div class="progress-bar bg-danger-subtle progress-bar-striped  progress-bar-animated" style="width:70%"> DIGITAL MARKETING 70%</div>
+              </div>
+
+
+   </div>
+</section>
+
+<section class="about-image-section ">
+  <div class="about-image justify-content-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12"><img class="designer-image" src="images/designer-small.jpg"> </div>
+      </div>
+    </div>
+</div>
+</section>
+  
+ 
+     
+    
+
+
+
+    
+    
+
+       <!---------------------FOOTER SECTION BEGINS------------------------------------>
+
+         
+          <div id="section4" class="footer">
+            <div class="container-fluid justify-content-evenly p-3">
+              <div class="row">
+                <a href="index.html"><img id="footer-logo" src="images/marvelcmedia-logo.png"></a>
+                  
+
+                <div id="footer-info" class="col-md-3 col-sm-6">
+                  <h4 id="footer-header">PAGES </h4><hr>
+                    <ul class="list-unstyled">
+                       <li class="nav">
+                        <a href="index.html" >Home</a>
+                       </li>
+                     
+                       <li class="nav">
+                        <a href="about-us.html" >Who we are</a>
+                       </li>
+                       
+                       <li class="nav">
+                        <a href="portfolio.html" >Portfolio</a>
+                       </li>
+
+                       <li class="nav">
+                        <a href="blog" >Blog</a>
+                       </li>
+
+                       <li class="nav">
+                        <a href="request-a-quote.html" >Request a Quote</a>
+                       </li>
+
+                       <li class="nav">
+                        <a href="contact-us.html" >Contact us</a>
+                       </li>
+                    
+                    
+                    
+                    
+                      </ul>
+                </div>
+
+
+                 
+                
+                
+                
+                <div id="footer-info" class="col-md-3 col-sm-6">
+                    <h4 id="footer-header">WHAT WE DO </h4><hr>
+                    <ul class="list-unstyled">
+                         <li class="nav">
+                          <a href="web-design.html" >Web Design</a>
+                         </li>
+                       
+                         <li class="nav">
+                          <a href="web-development.html" >Web Development</a>
+                         </li>
+                         
+                         <li class="nav">
+                          <a href="app-development.html" >Mobile App Development</a>
+                         </li>
+
+                         <li class="nav">
+                          <a href="Creative-Design.html" >Creative Graphic Design</a>
+                         </li>
+
+                         <li class="nav">
+                          <a href="request-a-quote.html" >Digital Marketing</a>
+                         </li>
+
+                         <li class="nav">
+                          <a href="corporate-branding.html" >Corporate branding</a>
+                         </li>
+                      
+                      
+                      
+                      
+                        </ul>
+                  </div>
+
+
+                  <div id="footer-info" class="col-md-3 col-sm-6">
+                    <h4 id="footer-header">TRAINING </h4><hr>
+                    <ul class="list-unstyled">
+                         <li class="nav">
+                          <a href="web-design.html" >Web Design Training</a>
+                         </li>
+                       
+                         <li class="nav">
+                          <a href="web-development.html" >Web Development Training</a>
+                         </li>
+                         
+                         <li class="nav">
+                          <a href="app-development.html" >Mobile App Development Traning</a>
+                         </li>
+
+                         <li class="nav">
+                          <a href="Creative-Design.html" > Graphic Design Training</a>
+                         </li>
+
+                         <li class="nav">
+                          <a href="request-a-quote.html" >Digital Marketing Training </a>
+                         </li>
+
+                         
+                      
+                      
+                      
+                        </ul>
+                  </div>
+
+
+
+                  <div id="find-us" class="col-md-3 col-sm-6 p-2" >
+                    <h4 id="footer-header">FIND US </h4><hr>
+                    <i id="location-footer" class="bi bi-geo-alt-fill">&nbsp;&nbsp;<span id="address-footer">
+                      Suite D110, Ogba Multipurpose Shopping Mall, Ogba Lagos</span> </i> <br> &nbsp;&nbsp;
+                      
+                       <i id="Telephone-footer1" class="bi bi-telephone-fill">&nbsp;&nbsp;<span id="number-footer">
+                        (+234) 818-601-9049</span> </i> <br>
+
+                       <i id="Telephone-footer2" class="bi bi-telephone-fill">&nbsp;&nbsp;<span id="number-footer">
+                          (+234) 704-824-5026 </span> </i> <br>
+
+
+                          <i id="envelope-footer" class="bi bi-envelope-at-fill">&nbsp;&nbsp;<span id="email-footer">
+                            info@marvelcmedia.com </span> </i> 
+                  </div>
+
+
+
+                    
+
+             
+                
+                
+                
+                
+                
+                
+                 
+               <div class="copyright"> <p id="copyright-text">
+                <hr id="top-hr"> &copy;  2023&nbsp;Marvel Creative Media. All Right Reserved.</p>
+                    
+                
+                <p id="social-footer"> <a href="www.facebook.com/marvelcmedia"><i id="social" class="bi bi-facebook"></i></a>&nbsp;&nbsp;
+                      <a href="www.instagram.com/marvelcmedia"><i id="social" class="bi bi-instagram"></i></a>&nbsp;&nbsp;
+                      <a href="www.linkedin.com/marvelcmedia"><i id="social" class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
+                      <a href="www.twitter.com/marvelcmedia"><i id="social" class="bi bi-twitter"></i></a></p></div>
+                    
+              </div>
+            </div>
+        </div>
+   
+
+
+
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
